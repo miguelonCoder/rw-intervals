@@ -1,0 +1,12 @@
+/src
+/tarjet
+/node_tests
+
+build.rs
+Cargo.lock
+Cargo.toml
+jest.config.js
+
+
+.env
+.DS_Store

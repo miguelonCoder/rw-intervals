@@ -1,0 +1,28 @@
+{
+  "name": "rw-intervals",
+  "version": "1.0.0",
+  "description": "This library provide many functions to manage the selections of overlaped weighted intervals.",
+  "main": "./index.mjs",
+  "type": "module",
+  "types": "./index.d.ts",
+  "scripts": {
+    "build": "nj-cli build --release",
+    "example": "node ./node_tests/index.js",
+    "test": "npx jest"
+  },
+  "keywords": [
+    "Rust",
+    "Node",
+    "js",
+    "schedule",
+    "time-intervals"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "author": "Ingeodev",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
