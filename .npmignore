@@ -1,5 +1,5 @@
 /src
-/tarjet
+/target
 /node_tests
 
 build.rs

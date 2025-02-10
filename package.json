@@ -1,7 +1,7 @@
 {
   "name": "rw-intervals",
-  "version": "1.0.0",
-  "description": "This library provide many functions to manage the selections of overlaped weighted intervals.",
+  "version": "0.0.1",
+  "description": "This library provides an algorithm for manage weighted overlaped intervals in a schedule",
   "main": "./index.mjs",
   "type": "module",
   "types": "./index.d.ts",
@@ -24,5 +24,8 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "repository": {
+    "url": "https://github.com/miguelonCoder/rw-intervals.git"
   }
 }

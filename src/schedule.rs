@@ -174,7 +174,7 @@ impl TryIntoJs for Schedule {
         .collect();
 
         let reservations_js = reservations.try_to_js(env)?;
-        obj.set_property("reservationse", reservations_js)?;
+        obj.set_property("reservations", reservations_js)?;
 
         Ok(obj.napi_value())
     }
