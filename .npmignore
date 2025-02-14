@@ -1,6 +1,7 @@
 /src
 /target
 /node_tests
+/.idea
 
 build.rs
 Cargo.lock

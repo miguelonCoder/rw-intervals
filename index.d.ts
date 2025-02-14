@@ -1,16 +1,16 @@
 declare module 'rw-intervals' {
   export interface Request {
-    id: String,
-    start_date: Number,
-    end_date: Number,
-    weight: Number,
+    id: string,
+    start_date: number,
+    end_date: number,
+    weight: number,
   }
 
   export interface Schedule {
-    name: String,
-    overlaps: String[],
+    name: string,
+    overlaps: string[],
     requests: Request[],
-    reservations: String[],
+    reservations: string[],
   }
 
   /**
@@ -19,7 +19,7 @@ declare module 'rw-intervals' {
    * @param newRequest - JSON string representando la nueva solicitud.
    * @returns JSON string con el horario actualizado.
    */
-  export function recalculateReservations(schedule: String, newRequest: String) : Schedule
+  export function recalculateReservations(schedule: string, newRequest: string) : Schedule
 
     /**
    * Recalcula las reservas en un horario dado un nuevo request.
@@ -27,5 +27,5 @@ declare module 'rw-intervals' {
    * @param new_request - JSON string representando la nueva solicitud.
    * @returns JSON string con el horario actualizado.
    */
-  export function buildSchedule(requests: String) : Schedule
+  export function buildSchedule(requests: string) : Schedule
 }

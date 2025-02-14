@@ -1,6 +1,6 @@
 {
   "name": "rw-intervals",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This library provides an algorithm for manage weighted overlaped intervals in a schedule",
   "main": "./index.mjs",
   "type": "module",
